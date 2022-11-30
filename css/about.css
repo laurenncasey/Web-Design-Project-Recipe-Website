@@ -2,27 +2,6 @@
     font-family: pretty cursive;
     src: url(../fonts/Anthony\ Hunter.otf);
 }
-/*
-@media (max-width: 400vw){
-    #picture{
-        display: none;
-    }
-    #biography{
-        flex-direction: column;
-    }
-    
-}
-@media (max-width: 600vw){
-    #picture{
-        display: none;
-    }
-    #biography{
-        flex-direction: column;
-    }
-    
-}*/
-
-
 
 
 .mainbody{
@@ -42,6 +21,8 @@
     width: 20px;
     
 }
+
+
 .logolastname{
     height: 200px;
     margin: 10px;
@@ -81,6 +62,7 @@ h1{
     font-family: pretty cursive;
 }
 .profpic{
+    display: flex;
     width: 500px;
     height: 400px;
 }
@@ -112,6 +94,17 @@ p{
 .icons{
     margin: 20px;
     font-size: 25px;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .bio{
+        flex-direction: column;
+    }
+    .profpic{
+        display: none;
+    }
 }
 
 
