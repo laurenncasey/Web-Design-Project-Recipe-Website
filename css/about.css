@@ -1,0 +1,117 @@
+@font-face {
+    font-family: pretty cursive;
+    src: url(../fonts/Anthony\ Hunter.otf);
+}
+/*
+@media (max-width: 400vw){
+    #picture{
+        display: none;
+    }
+    #biography{
+        flex-direction: column;
+    }
+    
+}
+@media (max-width: 600vw){
+    #picture{
+        display: none;
+    }
+    #biography{
+        flex-direction: column;
+    }
+    
+}*/
+
+
+
+
+.mainbody{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 115px;
+
+}
+.profpic{
+    display: flex;
+    height: 20px;
+    width: 20px;
+    
+}
+.logolastname{
+    height: 200px;
+    margin: 10px;
+    transform: rotate(3deg);
+    margin-top: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content2{
+    display: flex;
+    flex-direction: column;
+    margin-top: -30px;
+}
+.profpicholder{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(223, 171, 180);
+    border-radius: 10%;
+    margin-top: 30px;
+}
+.name{
+width: 70%;
+height: 30%;
+justify-content: center;
+text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1,h2, h3{
+margin: 0px;
+}
+h1{
+    font-size: 60px;
+    font-family: pretty cursive;
+}
+.profpic{
+    width: 500px;
+    height: 400px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+
+}
+.ic{
+    font-size: 70px;
+    margin: 20px;
+}
+.bio{
+   justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+p{
+    word-wrap: break-word;
+    margin-left: 50px;
+}
+.footer{
+    width: 100%;
+    text-align: right;
+    border-radius: 5%;
+    background-color: rgb(223, 171, 180);
+}
+.icons{
+    margin: 20px;
+    font-size: 25px;
+}
+
+
