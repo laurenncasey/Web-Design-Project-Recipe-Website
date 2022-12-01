@@ -92,10 +92,16 @@ echo "<!DOCTYPE html>
 
         </div>
     </div>
-    </body>
+    </body> 
+    
+    <form class = 'formclass' method='post' target='_blank' action='submitReview.php'>
+            <h1 class='formHeader'>Would you like to leave a review?</h1>
+            <input class='textbox' type='text' name='review'><br/><br/>
+            <input type='submit'>
+        </form>
 
 
-    <div class='footer'>
+        <div class='footer'>
         <a class='icons' href = 'https://www.linkedin.com/in/alaina-casey-5229a317a' target='_blank'><i class='fa fa-linkedin'></i></a>
         <a class='icons' href='https://instagram.com/thecaseyjournals?igshid=YmMyMTA2M2Y=' target='_blank'><i class='fa fa-instagram'></i></a>
         <a class='icons' href='' target='_blank'><i class='fa fa-youtube'></i></a>

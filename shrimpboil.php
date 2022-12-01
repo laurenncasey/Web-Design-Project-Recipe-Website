@@ -90,6 +90,11 @@ echo "<!DOCTYPE html>
         </div>
     </div>
     </body>
+    <form class = 'formclass' method='post' target='_blank' action='submitReview.php'>
+    <h1 class='formHeader'>Would you like to leave a review?</h1>
+    <input class='textbox' type='text' name='review'><br/><br/>
+    <input type='submit'>
+</form>
 
 
         <div class='footer'>

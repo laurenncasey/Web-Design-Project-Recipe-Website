@@ -274,6 +274,7 @@ height: 400px;
     margin-left: 50px;
     margin-right: 50px;
     max-height: 60vh;
+    border-bottom: 2px solid rgb(31, 19, 7);
     
 }
 .ingr{
@@ -326,10 +327,26 @@ a{
 
 }
 
+.formclass{
+    margin-left: 50px;
+}
+
+.formHeader{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    
+}
+
+.textbox{
+    width: 80vw;
+    height: 100px;
+}
+
 @media only screen and (max-width: 1000px) {
     .book, .content2{
         flex-direction: column;
         justify-content: center;
+        border-bottom: none;
     }
     .ingr, .instr{
         width: 90vw;
