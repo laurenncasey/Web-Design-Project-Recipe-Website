@@ -1,8 +1,7 @@
 @font-face {
-    font-family: pretty cursive;
-    src: url(../fonts/Anthony\ Hunter.otf);
+    font-family: adelia;
+    src: url(../fonts/adelia.otf);
 }
-
 
 .mainbody{
     display: flex;
@@ -24,11 +23,11 @@
 
 
 .logolastname{
-    height: 200px;
-    margin: 10px;
+    height: 50px;
     transform: rotate(3deg);
-    margin-top: 30px;
 }
+
+
 
 a{
     text-decoration: none;
@@ -50,6 +49,8 @@ a{
 .name{
 width: 70%;
 height: 30%;
+display: flex;
+flex-direction: column;
 justify-content: center;
 text-align: center;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -57,9 +58,12 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 h1,h2, h3{
 margin: 0px;
 }
+h2, h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 h1{
     font-size: 60px;
-    font-family: pretty cursive;
+    font-family: adelia;
 }
 .profpic{
     display: flex;
@@ -80,6 +84,7 @@ h1{
    justify-content: center;
     display: flex;
     flex-direction: row;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 p{
     word-wrap: break-word;
@@ -97,8 +102,7 @@ p{
 }
 
 
-
-@media only screen and (max-width: 1000px) {
+@media (max-width: 1000px) {
     .bio{
         flex-direction: column;
     }

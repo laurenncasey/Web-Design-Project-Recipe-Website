@@ -1,0 +1,176 @@
+@font-face {
+    font-family: adelia;
+    src: url(../fonts/adelia.otf);
+}
+
+.bodyTest{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: -50px;
+    justify-content: center;
+    text-align: center;
+    
+}
+.nav{
+    margin-top: 140px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.homenav{
+    margin: 20px
+}
+.constantImages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    object-fit: scale-down;
+    margin-top: -40px;
+}
+.logo{
+    height: 250px;
+    margin: 20px;
+}
+.imgHeader{
+    width: calc((100vw - 30px )/ 5);
+    object-position: center;
+    object-fit: cover;
+    margin: 5px;
+    border: 1px solid rgb(31, 19, 7);
+    height: 30vh;
+    
+}
+
+.recipenameholder{
+    background-color: rgb(223, 171, 180);
+    height: fit-content;
+    width: 98.5vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.title{
+    color: rgb(31, 19, 7);
+    font-family: adelia;
+    font-size: 45px;
+    text-align: center;
+    margin: none;
+}
+
+
+.label{
+    font-family: adelia;
+    font-size: 40px;
+    color: rgb(31, 19, 7);
+    text-align: center;
+}
+.divIngr{
+    display: flex;
+    text-align: left;
+    justify-content: center;
+   
+}
+
+.ingr, .dir{
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    color: rgb(31, 19, 7);
+    
+}
+
+.left, .right{
+    width: 25vw;
+}
+.middle{
+    width: 50vw;
+}
+
+.book{
+    display: flex;
+    flex-direction: row;
+}
+.separator{
+    background-color: rgb(223, 171, 180);
+    height: 10px;
+}
+.icons{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer{
+    text-align: center;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.formHeader{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(31, 19, 7);
+    
+}
+
+.textbox{
+    height: 100px;
+    margin: none;
+    width: 98.5vw;
+}
+
+.formclass{
+    justify-content: center;
+    margin: none;
+}
+
+.submitbtn{
+    color: rgb(31, 19, 7);
+    background-color: rgb(223, 171, 180);
+    width: 100px;
+    margin-left: calc((98.5vw - 100px)/2);
+    margin-right: calc((98.5vw - 100px) / 2);
+}
+.imgs{
+    display: flex;
+    flex-direction: row;
+}
+.imagerec{
+    object-position: center;
+    object-fit: cover;
+    margin: 5px;
+    border: 1px solid rgb(31, 19, 7);
+    height: 30vh;
+    
+}
+
+@media (max-width : 1050px){
+    .title{
+        font-size: 30px;
+    }
+    .label{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 700px){
+    .title{
+        font-size: 20px;
+    }
+    .label{
+        font-size: 20px;
+    }
+    .left, .right{
+        width: 15vw;
+    }
+    .middle{
+        width: 70vw;
+    }
+}
